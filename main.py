@@ -29,7 +29,7 @@ def main():
     ## The number of iterations (epochs) where the network is trained on all shuffled training data.
     ## Value can vary, depending on data, should be matched acordingly to prevent
     ## eg. underfitting or overfitting.
-    epochs = 500
+    epochs = 200
 
     print("---")
     for epoch in range(epochs):
